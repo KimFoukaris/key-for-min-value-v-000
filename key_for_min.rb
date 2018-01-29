@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, value|
     if value < low
       low = value
-      low-key = name
+      puts "name"
     end
   end
-  low_key
+  #low_key
 end
